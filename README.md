@@ -9,7 +9,7 @@ I want to use this config one day on my school laptop.
 - generate a new hardware configuration with `sudo nixos-generate-config --show-hardware-config > ~/.dotfiles/system/hardware-configuration.nix`
 - run `nix flake update`
 - rebuild system with `sudo nixos-rebuild switch --flake .#<hostname>`
-- install home-manager 
+- install home-manager [Standalone installation](https://nix-community.github.io/home-manager/)
 - run `home-manager switch`
 
 ## Description
